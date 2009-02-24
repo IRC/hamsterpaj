@@ -17,7 +17,7 @@
 
 if (!preg_match("/^[0-9a-zA-Z_-]+$/i", $_GET['username']) || strlen($_GET['username']) > 16 || strlen($_GET['username']) < 2)
 {
-	echo '<strong> Du har inte valt ett giltligt användarnamn, du får bara använda A-z och _ </strong>';
+	echo '<strong> Du har inte valt ett giltligt användarnamn, du får bara använda A-z och _  bajsa i brallorna.</strong>';
 }
 else
 {
